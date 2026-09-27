@@ -83,13 +83,8 @@ public class Main {
             while (!gagal.isEmpty()) {
             String[] transaction = gagal.pop();
 
-            System.out.println(
-                transaction[0] + " "
-                + transaction[1] + " "
-                + transaction[2]
-            );
+            System.out.println(transaction[0] + " " + transaction[1] + " " + transaction[2]);
         }
-            
-         
+             
     }
 }
